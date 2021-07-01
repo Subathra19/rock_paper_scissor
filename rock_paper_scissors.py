@@ -52,9 +52,9 @@ def main():
 
     #force the player into the play loop
     play_again = ''
-    while play_again.lower() != 'n':
+    while play_again.lower() != "no":
         play()
         print ("\nDo you want to play again?")
-        play_again = input('type \'y\' for yes or \'n\' for no: ')
+        play_again = input("Type yes or no:")
 
 main()
